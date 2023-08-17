@@ -1,0 +1,191 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-25 13:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: task_manager/templates/base.html:14 task_manager/templates/base.html:25
+msgid "Title"
+msgstr "Task Manager"
+
+#: task_manager/templates/base.html:33
+msgid "users list nav"
+msgstr "Users"
+
+#: task_manager/templates/base.html:36
+msgid "sign in nav"
+msgstr "Sign in"
+
+#: task_manager/templates/base.html:39
+msgid "sign up nav"
+msgstr "Sign up"
+
+#: task_manager/templates/base.html:54
+msgid "name of creator"
+msgstr "Create by"
+
+#: task_manager/templates/index.html:8
+msgid "slogan of app"
+msgstr "A program that helps you manage projects"
+
+#: task_manager/templates/index.html:9
+msgid "info of app"
+msgstr ""
+"With the help of a task manager, you can plan and set tasks for employees, "
+"set deadlines, monitor their implementation and monitor results. The tool is "
+"needed so that there is no chaos in the work."
+
+#: task_manager/templates/index.html:11
+msgid "start button"
+msgstr "Start"
+
+#: task_manager/templates/statuses/index.html:14
+msgid "name"
+msgstr "Name"
+
+#: task_manager/templates/statuses/index.html:15
+#: task_manager/templates/users/index.html:14
+msgid "date of create"
+msgstr "Date of Create"
+
+#: task_manager/templates/statuses/index.html:25
+#: task_manager/templates/users/index.html:25
+#: task_manager/translations/trans.py:36
+msgid "update button"
+msgstr "Edit"
+
+#: task_manager/templates/statuses/index.html:27
+#: task_manager/templates/users/index.html:27
+#: task_manager/translations/trans.py:38
+msgid "delete button"
+msgstr "Delete"
+
+#: task_manager/templates/users/delete.html:10
+msgid "Are you sure delete"
+msgstr "Are you sure delete"
+
+#: task_manager/templates/users/index.html:6
+msgid "user list nav"
+msgstr "Users"
+
+#: task_manager/templates/users/index.html:12
+msgid "username"
+msgstr "Username"
+
+#: task_manager/templates/users/index.html:13
+msgid "fullname"
+msgstr "Fullname"
+
+#: task_manager/translations/trans.py:6
+msgid "You need to authenticated"
+msgstr "You need to authenticated"
+
+#: task_manager/translations/trans.py:7
+msgid "You cannot edit another user"
+msgstr "You cannot edit another user"
+
+#: task_manager/translations/trans.py:8 task_manager/users/tests.py:13
+msgid "You don't have the rights to change another user."
+msgstr "You don't have the rights to change another user"
+
+#: task_manager/translations/trans.py:10 task_manager/users/tests.py:16
+msgid "It is not possible to delete a user because it is being used"
+msgstr "It is not possible to delete a user because it is being used"
+
+#: task_manager/translations/trans.py:14
+msgid "User update successfully"
+msgstr "User update successfully"
+
+#: task_manager/translations/trans.py:15
+msgid "User create successfully"
+msgstr "User create successfully"
+
+#: task_manager/translations/trans.py:16 task_manager/users/tests.py:15
+msgid "The user deleted! You need to log in again"
+msgstr "The user deleted! You need to log in again"
+
+#: task_manager/translations/trans.py:17
+msgid "You are successfully logged in"
+msgstr "You are successfully logged in"
+
+#: task_manager/translations/trans.py:18
+msgid "You're logged out"
+msgstr "You're logged out"
+
+#: task_manager/translations/trans.py:25
+msgid "Edit user"
+msgstr "Edit user"
+
+#: task_manager/translations/trans.py:26
+msgid "Create user"
+msgstr "Registration"
+
+#: task_manager/translations/trans.py:27
+msgid "Delete user"
+msgstr "Delete user"
+
+#: task_manager/translations/trans.py:28
+msgid "sign in header"
+msgstr "Sign in"
+
+#: task_manager/translations/trans.py:30
+msgid "Statuses"
+msgstr "Statuses"
+
+#: task_manager/translations/trans.py:31
+msgid "Create status"
+msgstr "Create status"
+
+#: task_manager/translations/trans.py:32
+msgid "Delete status"
+msgstr "Delete status"
+
+#: task_manager/translations/trans.py:33
+msgid "Update status"
+msgstr "Edit status"
+
+#: task_manager/translations/trans.py:37 task_manager/users/views.py:47
+msgid "create button"
+msgstr "Create"
+
+#: task_manager/translations/trans.py:39
+msgid "sign in button"
+msgstr "Sign in"
+
+#: task_manager/translations/trans.py:44
+msgid "This status is used, you can't delete it"
+msgstr "This status is used, you can't delete it"
+
+#: task_manager/translations/trans.py:47
+msgid "The status successfully created"
+msgstr "The status successfully created"
+
+#: task_manager/translations/trans.py:48
+msgid "The status successfully updated"
+msgstr "The status successfully updated"
+
+#: task_manager/translations/trans.py:49
+msgid "The status successfully deleted"
+msgstr "The status successfully deleted"
+
+#: task_manager/users/tests.py:11
+msgid "The user successfully created"
+msgstr "The user successfully created"
+
+#: task_manager/users/tests.py:12
+msgid "The user successfully updated"
+msgstr "The user successfully updated"
