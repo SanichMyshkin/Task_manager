@@ -1,0 +1,14 @@
+*.egg-info
+__pycache__
+../python-project-52/dist/
+*.pyc
+.venv/
+.coverage
+coverage.xml
+.pytest_cache/
+.idea/
+.env
+.DS_Store
+.dist/
+dist/
+ds.sqlite3
